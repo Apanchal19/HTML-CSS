@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 236, 227);
+
+}
+form{
+    max-width: 800px;
+    background-color: rgb(166, 201, 231);
+    margin: auto;
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form> div{
+    margin: 10px auto;
+    width: 700px;
+}
+
+h1{
+    text-align: center;
+    margin: 40px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select,
+textarea{
+    width:80%;
+    padding: 6px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+
+input[type="submit"]{
+    width: 120px;
+    padding: 8px;
+    font-size: medium;
+    font-weight: 600;
+    display: block;
+    margin: 20px auto;
+    border: none;
+    background-color: rgb(197, 58, 58);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    
+}
+input[type="submit"]:hover{
+    background-color: rgba(238, 10, 55, 0.993)
+
+}
+
+.checky{
+    border: 1px solid rgb(146, 106, 106);
+    padding: 10px;
+    border-radius: 3px;
+}
