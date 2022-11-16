@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+nav{
+    border: 2px solid rgb(27, 26, 26);
+    display: flex;
+    height: 3vmax;
+}
+
+.left{
+    border: 2px solid salmon;
+    width: 20%;
+    justify-content: center;
+    display: flex;
+}
+.left>a{
+    color: crimson;
+    text-decoration: none;
+    font-size: 2vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid yellowgreen;
+}
+.mid{
+    width: 80%;
+    border: 2px solid blue;
+    justify-content: space-evenly;
+    display: flex;
+}
+.mid>a{
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid yellowgreen; */
+    border-bottom: 2px solid blueviolet;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mid>a:hover{
+    border: 1px solid rgb(31, 190, 98);
+}
+.right{
+    width: 20%;
+    border: 2px solid green;
+}
+
+.right>img{
+    height: 40px;
+    width: 100;
+}
