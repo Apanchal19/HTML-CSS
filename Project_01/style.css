@@ -1,0 +1,112 @@
+body{
+    background-image:url("./bg.webp");
+    height:100vh ;
+}
+
+header{
+    padding: 20px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.logoBox{
+    display: inline-block;
+    width:150px ;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+   
+}
+
+
+.navbox{
+    
+    width: 600px;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+}
+
+.navbox>a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+
+.navbox>a:hover{
+    color: salmon;
+}
+    #homie{
+    color: salmon;
+}
+.heading{
+    color: salmon;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    width: 500px;
+}
+.heading+h3{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+    position: relative;
+    left: 90px;
+    width: 500px;
+}
+
+.heading+h3+p{
+    color: rgba(255, 255, 255, 0.842);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: relative;
+    left: 80px;
+    width: 400px;
+    word-spacing: 4px;
+    top: 20px;
+    
+}
+
+.btn{
+    width: 150px;
+    border: 2px solid salmon;
+    padding: 15px;
+    background-color: salmon;
+    color:rgb(19, 18, 18) ;
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    color: white;
+   
+    position:fixed ;
+    bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer>a{
+    color: white;
+    text-decoration: none;
+
+}
+footer>a:hover{
+    color: salmon;
+    transition: all 0.5s;
+}
